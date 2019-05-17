@@ -16,11 +16,11 @@
     <div id="inputDiv">
 
         <h2>Add Employee</h2>
-        <input type="text" class="empInputs" placeholder="First Name">
-        <input type="text" class="empInputs" placeholder="Last Name">
-        <input type="text" class="empInputs" placeholder="ID">
-        <input type="text" class="empInputs" placeholder="Title">
-        <input type="text" class="empInputs" placeholder="Annual Salary">
+        <input type="text" class="inputs" id="firstNameIn" placeholder="First Name">
+        <input type="text" class="inputs" id="lastNameIn" placeholder="Last Name">
+        <input type="text" class="inputs" id="idIn" placeholder="ID">
+        <input type="text" class="inputs" id="titleIn" placeholder="Title">
+        <input type="text" class="inputs" id="annualIn" placeholder="Annual Salary">
         <button id="salaryButton">Calculate</button>
     </div>
 <div id="tableDiv">
@@ -33,26 +33,18 @@
                 <th>Title</th>
                 <th>Annual Salary</th>
                 <th></th>
-
-                
             </tr>
-
         </thead>
         <tbody>
-        
             <tr>
                 <td>John</td>
                 <td>Doe</td>
                 <td>0666</td>
                 <td>Title</td>
                 <td>$100,000</td>
-                <td>  </td>
-
-
+                <td><button id="deleteButton">Delete</button>  </td>
             </tr>
-            
-
-        </tbody>
+             </tbody>
     </table>
 </div>
 

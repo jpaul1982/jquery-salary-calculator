@@ -14,16 +14,18 @@ function calculateMonthly() {
     // $("tbody").append('<tr><td>'+firstName+'</td><td</tr>');
     $("tbody").append(`   
     <tr>
-        <td>`+firstName+`</td>
-        <td>` +lastName+ `</td>
-        <td>` +id+ `</td>
-        <td>` +title+ `</td>
-        <td>` +annual+ `</td>
+        <td>`+ firstName + `</td>
+        <td>` + lastName + `</td>
+        <td>` + id + `</td>
+        <td>` + title + `</td>
+        <td>` + annual + `</td>
         <td><button>Delete</button></td>
     
-    </tr>`)
+    </tr>`);
 
     $('.inputs').val(" ");
+
+    $("#monthly").append(Math.floor(annual/12));
 
 
 }

@@ -6,9 +6,47 @@ table, th, td {
     border: 1px solid black;
     width: 80%;
     height: 40px;
-    margin-top: 20px;
+    margin: 20px auto;
+    table-layout: fixed;
+
+    
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+thead {
+    background-color: cornflowerblue;
 }
 
 h1 {
     text-align: center;
+}s
+
+#monthlyDiv {
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#inputDiv {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.inputs {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#monthlyDiv {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
 }

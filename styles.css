@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: #e0c684;
 }
 
 table, th, td {
@@ -8,13 +8,12 @@ table, th, td {
     height: 40px;
     margin: 20px auto;
     table-layout: fixed;
-
-    
 }
 
 td {
     padding-left: 15px;
     padding-right: 10px;
+    background-color: white;
 }
 
 thead {
@@ -23,21 +22,14 @@ thead {
 
 h1 {
     text-align: center;
-}s
-
-#monthlyDiv {
-    border: 1px solid black;
-    margin-top: 20px;
-    width: 80%;
 }
 
 #inputDiv {
     background-color: cornflowerblue;
-    border: 1px solid black;
+    border: solid black;
     width: 80%;
     margin: 0 auto;
-    
-    
+    border-style: double;
 }
 
 .inputs {
@@ -47,6 +39,19 @@ h1 {
 
 #monthlyDiv {
     border: 1px solid black;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+#salaryButton {
+    margin-left: 15px;
 }
